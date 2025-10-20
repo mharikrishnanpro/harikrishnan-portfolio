@@ -65,7 +65,7 @@ const Hero = () => {
               >
                 <img
                   src="/assets/profile.jpg"
-                  alt="Harikrishnan M"
+                  alt="Harikrishnan M profile"
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.currentTarget.src = "https://ui-avatars.com/api/?name=Harikrishnan+M&size=200&background=00d9ff&color=0f172a&bold=true";
@@ -141,7 +141,7 @@ const Hero = () => {
               asChild
             >
               <a 
-                href="/assets/Harikrishnan_M.pdf" 
+                href="/assets/Harikrishnan_M_Resume_Public.pdf" 
                 download
                 onClick={handleResumeDownload}
               >
