@@ -35,13 +35,13 @@ const Contact = () => {
       href: "https://www.linkedin.com/in/harikrishnan-m-83a67535a/",
       color: "text-secondary",
     },
-    {
-      icon: Github,
-      label: "GitHub",
-      value: "github.com/mharikrishnanpro",
-      href: "https://github.com/mharikrishnanpro",
-      color: "text-accent",
-    },
+    // {
+    //   icon: Github,
+    //   label: "GitHub",
+    //   value: "github.com/mharikrishnanpro",
+    //   href: "https://github.com/mharikrishnanpro",
+    //   color: "text-accent",
+    // },
   ];
 
   const handleChange = (e: any) => {

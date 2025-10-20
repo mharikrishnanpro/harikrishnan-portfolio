@@ -10,7 +10,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Mail, href: "mailto:mharikrishnan.pro@gmail.com", label: "Email" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/harikrishnan-m-83a67535a/", label: "LinkedIn" },
-    { icon: Github, href: "https://github.com/mharikrishnanpro", label: "GitHub" },
+    // { icon: Github, href: "https://github.com/mharikrishnanpro", label: "GitHub" },
   ];
 
   return (

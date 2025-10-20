@@ -106,7 +106,7 @@ const ProjectCard = ({ project, delay, isInView }: any) => {
             className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500"
           />
           {/* Overlay Buttons */}
-          <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 gap-2">
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4 gap-2">
             <Button size="sm" variant="default" className="glow-primary" asChild>
               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="w-4 h-4 mr-2" />
@@ -119,7 +119,7 @@ const ProjectCard = ({ project, delay, isInView }: any) => {
                 Source
               </a>
             </Button>
-          </div>
+          </div> */}
         </div>
 
         {/* Card Content */}
