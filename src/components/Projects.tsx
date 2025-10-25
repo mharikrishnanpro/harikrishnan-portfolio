@@ -16,38 +16,38 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Textlite CMS + B2B Inquiry Platform",
+      title: "Textile CMS + B2B Inquiry Platform",
       description:
-        "Mobile-first CMS and inquiry system featuring product management, Firebase authentication, and automated client emails via Nodemailer + SendGrid.",
+        "Mobile-first CMS and inquiry system with product management, Firebase authentication, and automated client emails via SendGrid API.",
       image: project1,
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Firebase", "REST APIs"],
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase", "SendGrid API"],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
       title: "Travel Agency CMS + WhatsApp Integration",
       description:
-        "Responsive tourism CMS with WhatsApp chat integration and JWT-secured admin dashboard for managing 100+ travel packages.",
+        "Built a responsive tourism CMS with WhatsApp chat integration and a JWT-secured admin dashboard for managing 100+ travel packages efficiently.",
       image: project3,
-      tech: ["React.js", "Node.js", "MongoDB", "JWT", "WhatsApp API"],
+      tech: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "JWT", "WhatsApp API"],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
       title: "B2B eCommerce Platform",
       description:
-        "Enterprise-grade eCommerce solution with Razorpay payments, customer management, and efficient order tracking using Redux.",
+        "Created a full-featured eCommerce portal with Razorpay payment gateway, customer management, and efficient order tracking using Redux and Axios.",
       image: project2,
-      tech: ["React.js", "Redux", "Express.js", "Razorpay", "MongoDB"],
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Redux", "Razorpay"],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
-      title: "EdTech LMS Platform",
+      title: "EdTech Learning Platform (LMS)",
       description:
-        "Scalable learning management system with real-time classes, subscription payments, and Dockerized AWS deployment.",
+        "Responsive LMS with React.js and Tailwind CSS, featuring JWT-secured APIs and microservices backend deployed on AWS EC2.",
       image: project4,
-      tech: ["React.js", "Node.js", "WebSockets", "AWS", "Docker", "PayPal"],
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT", "AWS EC2"],
       liveUrl: "#",
       githubUrl: "#",
     },

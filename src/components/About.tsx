@@ -36,11 +36,12 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground text-center mb-12 leading-relaxed"
           >
-            I’m a MERN Stack Developer with 4 years of experience building scalable and high-performance 
-            web applications across EdTech, B2B, E-commerce, TravelTech, and CMS domains. I specialize in 
-            React, Node, Express, and MongoDB — crafting secure, fast, and user-focused solutions that drive 
-            engagement and business growth. I’m also experienced in deploying production-ready apps on AWS 
-            using Docker and CI/CD pipelines to ensure scalability and performance.
+            I’m a MERN Stack Developer with 3+ years of experience building scalable and high-performance web 
+            applications across EdTech, B2B, E-commerce, and CMS domains. I specialize in frontend development 
+            using React.js, Tailwind CSS, and Material UI, with hands-on experience in Node.js, Express.js, and 
+            MongoDB for backend API and database integration. I’m passionate about crafting secure, responsive, 
+            and user-centric solutions that enhance both engagement and business efficiency. I also have deployment 
+            experience on AWS EC2, ensuring reliable and optimized application performance.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -67,7 +68,7 @@ const StatCard = ({ icon: Icon, label, value, suffix, delay, isInView }: any) =>
 
   useEffect(() => {
     if (!isInView) return;
-    
+
     const duration = 2000;
     const steps = 60;
     const increment = value / steps;

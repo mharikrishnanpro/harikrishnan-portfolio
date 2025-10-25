@@ -27,12 +27,12 @@ const Experience = () => {
       period: "December 2021 - January 2025",
       location: "Remote",
       achievements: [
-        "Architected microservices-based backend for EdTech LMS using Node.js and Express.js.",
-        "Reduced frontend load time by 40% with React optimization and lazy loading.",
-        "Implemented WebSocket-based live classes, chat, and progress tracking for 10K+ users.",
-        "Integrated PayPal subscription payments and deployed scalable apps on AWS using Docker and CI/CD.",
+        "Developed a microservices-based backend for an EdTech LMS using Node.js, Express.js, and MongoDB.",
+        "Improved frontend performance using React.js and Tailwind CSS with lazy loading and memoization.",
+        "Implemented JWT-based authentication for secure access control.",
+        "Built a custom CMS for instructors and admins to manage courses and sessions, deployed on AWS EC2.",
       ],
-    }
+    },
   ];
 
   return (

@@ -117,7 +117,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-10 max-w-2xl mx-auto px-4"
           >
-            Building scalable, secure, and visually stunning web applications with 4 years of experience 🚀
+            Building scalable, secure, and visually stunning web applications with 3+ years of experience 🚀
           </motion.p>
 
           <motion.div

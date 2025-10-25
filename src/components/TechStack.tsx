@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { 
-  SiReact, 
-  SiNodedotjs, 
-  SiMongodb, 
-  SiExpress, 
-  SiRedux, 
+import {
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiExpress,
+  SiRedux,
   SiNextdotjs,
   SiTailwindcss,
   SiMui,
@@ -15,7 +15,10 @@ import {
   SiAmazon,
   SiGithub,
   SiPostman,
-  SiJira
+  SiJira,
+  SiTypescript,
+  SiVercel,
+  SiRender
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -29,7 +32,7 @@ const TechStack = () => {
       skills: [
         { name: "React.js", icon: SiReact },
         { name: "Redux", icon: SiRedux },
-        { name: "Next.js", icon: SiNextdotjs },
+        { name: "TypeScript", icon: SiTypescript },
         { name: "Tailwind CSS", icon: SiTailwindcss },
         { name: "Material UI", icon: SiMui },
       ],
@@ -48,11 +51,13 @@ const TechStack = () => {
       name: "DevOps & Tools",
       color: "text-accent",
       skills: [
-        { name: "Docker", icon: SiDocker },
-        { name: "AWS", icon: SiAmazon },
+        // { name: "Docker", icon: SiDocker },
         { name: "GitHub", icon: SiGithub },
         { name: "Postman", icon: SiPostman },
-        { name: "Jira", icon: SiJira },
+        { name: "AWS", icon: SiAmazon },
+        { name: "Vercel", icon: SiVercel },
+        { name: "Render", icon: SiRender },
+        // { name: "Jira", icon: SiJira },
       ],
     },
   ];
