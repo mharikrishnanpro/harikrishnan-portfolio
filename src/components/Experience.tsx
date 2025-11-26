@@ -15,10 +15,10 @@ const Experience = () => {
       period: "May 2025 - October 2025",
       location: "Coimbatore, India",
       achievements: [
-        "Developed Textlite CMS and B2B inquiry platform with Firebase authentication and automated email notifications.",
-        "Built responsive travel booking system with JWT-secured admin panel and WhatsApp chat integration.",
-        "Integrated Razorpay payments and implemented order tracking to enhance customer experience.",
-        "Optimized React and Node.js architecture for scalable and high-performance applications.",
+        "Built CMS, B2B inquiry, tourism, and eCommerce modules using React.js, Tailwind CSS, Node.js, Express.js, and MongoDB.",
+        "Implemented Firebase/JWT authentication, Razorpay integration, and WhatsApp Click-to-Chat.",
+        "Integrated SendGrid and Google Maps API for automated communication and location services.",
+        "Deployed full-stack applications on AWS EC2 using Nginx and PM2.",
       ],
     },
     {
@@ -27,10 +27,10 @@ const Experience = () => {
       period: "December 2021 - January 2025",
       location: "Remote",
       achievements: [
-        "Developed a microservices-based backend for an EdTech LMS using Node.js, Express.js, and MongoDB.",
-        "Improved frontend performance using React.js and Tailwind CSS with lazy loading and memoization.",
-        "Implemented JWT-based authentication for secure access control.",
-        "Built a custom CMS for instructors and admins to manage courses and sessions, deployed on AWS EC2.",
+        "Developed course and progress modules for LMS using React.js and Tailwind CSS.",
+        "Collaborated on backend workflows with Node.js, Express.js, MongoDB, and JWT authentication.",
+        "Improved frontend performance with memoization, lazy loading, and optimization techniques.",
+        "Supported deployment and enhancement of LMS on AWS EC2.",
       ],
     },
   ];

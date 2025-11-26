@@ -18,36 +18,71 @@ const Projects = () => {
     {
       title: "Textile CMS + B2B Inquiry Platform",
       description:
-        "Mobile-first CMS and inquiry system with product management, Firebase authentication, and automated client emails via SendGrid API.",
+        "Mobile-first CMS & inquiry platform with Firebase Auth, SendGrid email automation, optimized Node.js backend, and Google Maps integration.",
       image: project1,
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Firebase", "SendGrid API"],
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Firebase Auth",
+        "SendGrid",
+        "Google Maps API"
+      ],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
       title: "Travel Agency CMS + WhatsApp Integration",
       description:
-        "Built a responsive tourism CMS with WhatsApp chat integration and a JWT-secured admin dashboard for managing 100+ travel packages efficiently.",
+        "Responsive tourism CMS with JWT-secured admin panel, dynamic package management, and WhatsApp Click-to-Chat for instant inquiries.",
       image: project3,
-      tech: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "JWT", "WhatsApp API"],
+      tech: [
+        "React.js",
+        "Material UI",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "WhatsApp Click-to-Chat"
+      ],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
       title: "B2B eCommerce Platform",
       description:
-        "Created a full-featured eCommerce portal with Razorpay payment gateway, customer management, and efficient order tracking using Redux and Axios.",
+        "Full-featured eCommerce application with product catalog, cart & checkout flows, Razorpay integration, and AWS EC2 deployment.",
       image: project2,
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Redux", "Razorpay"],
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redux",
+        "Context API",
+        "Razorpay",
+        "AWS EC2"
+      ],
       liveUrl: "#",
       githubUrl: "#",
     },
     {
       title: "EdTech Learning Platform (LMS)",
       description:
-        "Responsive LMS with React.js and Tailwind CSS, featuring JWT-secured APIs and microservices backend deployed on AWS EC2.",
+        "Course and progress modules built with React.js; collaborated on backend APIs using Node.js, Express.js, MongoDB, and JWT Auth.",
       image: project4,
-      tech: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "JWT", "AWS EC2"],
+      tech: [
+        "React.js",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "AWS EC2"
+      ],
       liveUrl: "#",
       githubUrl: "#",
     },

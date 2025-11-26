@@ -36,12 +36,12 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground text-center mb-12 leading-relaxed"
           >
-            I’m a MERN Stack Developer with 3+ years of experience building scalable and high-performance web 
-            applications across EdTech, B2B, E-commerce, and CMS domains. I specialize in frontend development 
-            using React.js, Tailwind CSS, and Material UI, with hands-on experience in Node.js, Express.js, and 
-            MongoDB for backend API and database integration. I’m passionate about crafting secure, responsive, 
-            and user-centric solutions that enhance both engagement and business efficiency. I also have deployment 
-            experience on AWS EC2, ensuring reliable and optimized application performance.
+            I’m a MERN Stack Developer with 3.8 years of experience building scalable and user-focused web
+            applications across EdTech, B2B, E-commerce, TravelTech, and CMS domains. I specialize in
+            frontend development using React.js, Tailwind CSS, and Material UI, with practical backend
+            experience in Node.js, Express.js, and MongoDB for building secure REST APIs and authentication
+            workflows. I’m passionate about delivering clean, responsive, and high-performance applications,
+            and have hands-on experience deploying full-stack solutions on AWS EC2 with Nginx and PM2.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
