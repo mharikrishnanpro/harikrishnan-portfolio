@@ -15,7 +15,7 @@ const Experience = () => {
       period: "December 2025 - Present",
       location: "Coimbatore, India (Hybrid)",
       achievements: [
-        "Contributing to an enterprise sports financial platform (AFL Salary Cap System) in an Agile Scrum environment.",
+        "Contributing to an enterprise sports financial platform in an Agile Scrum environment.",
         "Developing and enhancing REST APIs using Node.js and Express.js for financial workflows and validations.",
         "Working on Angular (TypeScript) UI modules and integrating backend APIs.",
         "Resolving production defects and supporting sprint-based feature enhancements.",

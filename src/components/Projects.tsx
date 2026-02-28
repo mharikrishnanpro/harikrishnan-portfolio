@@ -16,7 +16,7 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "AFL Salary Cap System (Enterprise Platform)",
+      title: "Enterprise Sports Financial Platform",
       description:
         "Enterprise sports financial system built with Angular (TypeScript) and Node.js, focused on REST APIs and production enhancements.",
       image: project4,
