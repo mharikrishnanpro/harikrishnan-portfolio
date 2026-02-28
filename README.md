@@ -1,6 +1,7 @@
 # Harikrishnan's Portfolio
 
 A modern, responsive portfolio website showcasing my projects, skills, and experience. Built with a clean design and smooth user experience in mind.
+Updated
 
 ## 🚀 Features
 
