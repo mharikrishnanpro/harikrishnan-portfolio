@@ -16,6 +16,21 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "AFL Salary Cap System (Enterprise Platform)",
+      description:
+        "Enterprise sports financial system built with Angular (TypeScript) and Node.js, focused on REST APIs and production enhancements.",
+      image: project4,
+      tech: [
+        "Angular",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "MongoDB"
+      ],
+      liveUrl: "#",
+      githubUrl: "#",
+    },
+    {
       title: "Textile CMS + B2B Inquiry Platform",
       description:
         "Mobile-first CMS & inquiry platform with Firebase Auth, SendGrid email automation, optimized Node.js backend, and Google Maps integration.",
@@ -36,7 +51,7 @@ const Projects = () => {
     {
       title: "Travel Agency CMS + WhatsApp Integration",
       description:
-        "Responsive tourism CMS with JWT-secured admin panel, dynamic package management, and WhatsApp Click-to-Chat for instant inquiries.",
+        "Responsive tourism management system with JWT-secured admin panel, structured backend APIs, and WhatsApp inquiry integration.",
       image: project3,
       tech: [
         "React.js",
@@ -53,7 +68,7 @@ const Projects = () => {
     {
       title: "B2B eCommerce Platform",
       description:
-        "Full-featured eCommerce application with product catalog, cart & checkout flows, Razorpay integration, and AWS EC2 deployment.",
+        "Full-stack eCommerce application with product management, secure checkout flows, Razorpay integration, and AWS EC2 deployment.",
       image: project2,
       tech: [
         "React.js",
@@ -72,7 +87,7 @@ const Projects = () => {
     {
       title: "EdTech Learning Platform (LMS)",
       description:
-        "Course and progress modules built with React.js; collaborated on backend APIs using Node.js, Express.js, MongoDB, and JWT Auth.",
+        "LMS modules for course administration and progress tracking with secure REST APIs and AWS deployment support.",
       image: project4,
       tech: [
         "React.js",

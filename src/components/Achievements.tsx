@@ -13,7 +13,7 @@ const Achievements = () => {
       icon: Zap,
       title: "Performance Optimization",
       description:
-        "Improved UI load times with lazy loading, memoization, and optimized API communication.",
+        "Improved frontend performance using lazy loading, memoization, and optimized API handling.",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },
@@ -21,7 +21,7 @@ const Achievements = () => {
       icon: CreditCard,
       title: "Secure Payment Integration",
       description:
-        "Integrated Razorpay with secure server-side verification and transaction handling.",
+        "Integrated Razorpay with secure server-side verification and transaction validation.",
       color: "text-secondary",
       bgColor: "bg-secondary/10",
     },
@@ -29,7 +29,7 @@ const Achievements = () => {
       icon: Users,
       title: "Production Deployment",
       description:
-        "Deployed full-stack applications on AWS EC2 using Nginx reverse proxy and PM2.",
+        "Deployed and maintained full-stack applications on AWS EC2 using Nginx and PM2.",
       color: "text-accent",
       bgColor: "bg-accent/10",
     },
@@ -37,7 +37,7 @@ const Achievements = () => {
       icon: TrendingUp,
       title: "Enhanced User Experience",
       description:
-        "Delivered clean, responsive UI designs with consistent state management and optimized workflows.",
+        "Built responsive UI modules with structured state management and scalable architecture.",
       color: "text-primary",
       bgColor: "bg-primary/10",
     },

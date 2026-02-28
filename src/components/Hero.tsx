@@ -7,7 +7,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const { toast } = useToast();
-  
+
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <section
-      id="home"      
+      id="home"
       className="relative min-h-screen z-60 flex items-center justify-center overflow-hidden pt-20 md:pt-30"
       style={{
         backgroundImage: `url(${heroBg})`,
@@ -53,7 +53,7 @@ const Hero = () => {
           >
             <div className="relative">
               <motion.div
-                animate={{ 
+                animate={{
                   y: [0, -10, 0],
                 }}
                 transition={{
@@ -93,15 +93,13 @@ const Hero = () => {
           >
             <TypeAnimation
               sequence={[
-                "MERN Stack Developer",
+                "Full Stack Developer",
                 2000,
-                "React.js Specialist",
+                "React & Angular Developer",
                 2000,
-                "Node.js Developer",
+                "Node.js & REST API Engineer",
                 2000,
-                "Full-Stack Enthusiast",
-                2000,
-                "Open to Cloud & DevOps",
+                "Enterprise Application Developer",
                 2000,
               ]}
               wrapper="span"
@@ -117,7 +115,7 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-10 max-w-2xl mx-auto px-4"
           >
-            Building scalable, secure, and visually stunning web applications with 3+ years of experience 🚀
+            Building scalable and production-ready web applications with 4+ years of professional experience.
           </motion.p>
 
           <motion.div
@@ -140,8 +138,8 @@ const Hero = () => {
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8"
               asChild
             >
-              <a 
-                href="/assets/Harikrishnan_M_Resume_Public.pdf" 
+              <a
+                href="/assets/Harikrishnan_M_Resume_Public.pdf"
                 download
                 onClick={handleResumeDownload}
               >

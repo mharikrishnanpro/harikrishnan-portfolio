@@ -10,15 +10,27 @@ const Experience = () => {
 
   const experiences = [
     {
+      company: "Bahwan CyberTek (Client: Orion Innovation)",
+      role: "Senior Software Engineer",
+      period: "December 2025 - Present",
+      location: "Coimbatore, India (Hybrid)",
+      achievements: [
+        "Contributing to an enterprise sports financial platform (AFL Salary Cap System) in an Agile Scrum environment.",
+        "Developing and enhancing REST APIs using Node.js and Express.js for financial workflows and validations.",
+        "Working on Angular (TypeScript) UI modules and integrating backend APIs.",
+        "Resolving production defects and supporting sprint-based feature enhancements.",
+      ],
+    },
+    {
       company: "Ultrafly Solutions Pvt Ltd",
       role: "Full Stack Developer",
       period: "May 2025 - October 2025",
       location: "Coimbatore, India",
       achievements: [
-        "Built CMS, B2B inquiry, tourism, and eCommerce modules using React.js, Tailwind CSS, Node.js, Express.js, and MongoDB.",
-        "Implemented Firebase/JWT authentication, Razorpay integration, and WhatsApp Click-to-Chat.",
-        "Integrated SendGrid and Google Maps API for automated communication and location services.",
-        "Deployed full-stack applications on AWS EC2 using Nginx and PM2.",
+        "Developed CMS, B2B inquiry, tourism, and eCommerce modules using React.js, Node.js, Express.js, and MongoDB.",
+        "Implemented JWT/Firebase authentication and integrated Razorpay, Google Maps API, and SendGrid.",
+        "Designed modular REST APIs and optimized MongoDB schemas.",
+        "Deployed applications on AWS EC2 using Nginx and PM2.",
       ],
     },
     {
@@ -27,10 +39,9 @@ const Experience = () => {
       period: "December 2021 - January 2025",
       location: "Remote",
       achievements: [
-        "Developed course and progress modules for LMS using React.js and Tailwind CSS.",
-        "Collaborated on backend workflows with Node.js, Express.js, MongoDB, and JWT authentication.",
-        "Improved frontend performance with memoization, lazy loading, and optimization techniques.",
-        "Supported deployment and enhancement of LMS on AWS EC2.",
+        "Enhanced LMS modules for course management and progress tracking using React.js.",
+        "Collaborated on backend REST APIs using Node.js, Express.js, and MongoDB with JWT authentication.",
+        "Improved frontend performance and supported AWS EC2 deployment workflows.",
       ],
     },
   ];

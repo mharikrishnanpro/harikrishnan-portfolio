@@ -9,9 +9,9 @@ const About = () => {
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
   const stats = [
-    { icon: Briefcase, label: "Years of Experience", value: 3, suffix: "+" },
+    { icon: Briefcase, label: "Years of Experience", value: 4, suffix: "+" },
     { icon: Code2, label: "Projects Delivered", value: 5, suffix: "+" },
-    { icon: Trophy, label: "Domains", value: 4, suffix: "+" },
+    { icon: Trophy, label: "Domains Worked", value: 5, suffix: "+" },
   ];
 
   return (
@@ -36,12 +36,9 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground text-center mb-12 leading-relaxed"
           >
-            I’m a MERN Stack Developer with 3.8 years of experience building scalable and user-focused web
-            applications across EdTech, B2B, E-commerce, TravelTech, and CMS domains. I specialize in
-            frontend development using React.js, Tailwind CSS, and Material UI, with practical backend
-            experience in Node.js, Express.js, and MongoDB for building secure REST APIs and authentication
-            workflows. I’m passionate about delivering clean, responsive, and high-performance applications,
-            and have hands-on experience deploying full-stack solutions on AWS EC2 with Nginx and PM2.
+            I’m a Full Stack Developer with 3.8+ years of experience building scalable web and enterprise applications across EdTech, B2B, E-commerce, and CMS domains.
+            I work primarily with React.js, Angular (TypeScript), Node.js, Express.js, and MongoDB to build secure REST APIs and responsive frontend systems within Agile environments.
+            I focus on writing clean, maintainable code and delivering performance-optimized, production-ready applications.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

@@ -9,22 +9,22 @@ import {
   SiMui,
   SiHtml5,
   SiCss3,
+  SiAngular,
+  SiTypescript,
 
   SiNodedotjs,
   SiExpress,
   SiMongodb,
   SiJsonwebtokens,
   SiFirebase,
-  SiApachespark,
 
   SiGit,
   SiGithub,
+  SiGitlab,
   SiPostman,
   SiAmazon,
   SiNginx,
   SiPm2,
-  SiVercel,
-  SiRender
 } from "react-icons/si";
 
 const TechStack = () => {
@@ -37,8 +37,9 @@ const TechStack = () => {
       color: "text-primary",
       skills: [
         { name: "React.js", icon: SiReact },
+        { name: "Angular", icon: SiAngular },
+        { name: "TypeScript", icon: SiTypescript },
         { name: "Redux", icon: SiRedux },
-        { name: "Context API", icon: SiReact },
         { name: "JavaScript (ES6+)", icon: SiJavascript },
         { name: "Tailwind CSS", icon: SiTailwindcss },
         { name: "Material UI", icon: SiMui },
@@ -54,23 +55,22 @@ const TechStack = () => {
         { name: "Express.js", icon: SiExpress },
         { name: "MongoDB", icon: SiMongodb },
         { name: "Mongoose", icon: SiMongodb },
-        { name: "JWT Auth", icon: SiJsonwebtokens },
-        { name: "Firebase Auth", icon: SiFirebase },
-        { name: "REST APIs", icon: SiApachespark },
+        { name: "REST APIs", icon: SiNodedotjs },
+        { name: "JWT Authentication", icon: SiJsonwebtokens },
+        { name: "Firebase Authentication", icon: SiFirebase },
       ],
     },
     {
       name: "DevOps & Tools",
-      color: "text-accent",
+      color: "text-primary",
       skills: [
         { name: "Git", icon: SiGit },
         { name: "GitHub", icon: SiGithub },
+        { name: "GitLab", icon: SiGitlab },
         { name: "Postman", icon: SiPostman },
         { name: "AWS EC2", icon: SiAmazon },
         { name: "Nginx", icon: SiNginx },
         { name: "PM2", icon: SiPm2 },
-        { name: "Vercel", icon: SiVercel },
-        { name: "Render", icon: SiRender },
       ],
     },
   ];
