@@ -12,10 +12,10 @@ const Experience = () => {
     {
       company: "Bahwan CyberTek (Client: Orion Innovation)",
       role: "Senior Software Engineer",
-      period: "December 2025 - Present",
+      period: "December 2025 - March 2026",
       location: "Coimbatore, India (Hybrid)",
       achievements: [
-        "Contributing to an enterprise sports financial platform in an Agile Scrum environment.",
+        "Worked on an enterprise sports financial platform in an Agile Scrum environment.",
         "Developing and enhancing REST APIs using Node.js and Express.js for financial workflows and validations.",
         "Working on Angular (TypeScript) UI modules and integrating backend APIs.",
         "Resolving production defects and supporting sprint-based feature enhancements.",
@@ -27,7 +27,7 @@ const Experience = () => {
       period: "May 2025 - October 2025",
       location: "Coimbatore, India",
       achievements: [
-        "Developed CMS, B2B inquiry, tourism, and eCommerce modules using React.js, Node.js, Express.js, and MongoDB.",
+        "Developed full-stack CMS, B2B inquiry, tourism and eCommerce applications using React.js, Node.js, Express.js, and MongoDB.",
         "Implemented JWT/Firebase authentication and integrated Razorpay, Google Maps API, and SendGrid.",
         "Designed modular REST APIs and optimized MongoDB schemas.",
         "Deployed applications on AWS EC2 using Nginx and PM2.",
@@ -40,7 +40,7 @@ const Experience = () => {
       location: "Remote",
       achievements: [
         "Enhanced LMS modules for course management and progress tracking using React.js.",
-        "Collaborated on backend REST APIs using Node.js, Express.js, and MongoDB with JWT authentication.",
+        "Developed and enhanced backend REST APIs using Node.js, Express.js, and MongoDB with JWT authentication.",
         "Improved frontend performance and supported AWS EC2 deployment workflows.",
       ],
     },

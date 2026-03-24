@@ -17,8 +17,8 @@ const Projects = () => {
   const projects = [
     {
       title: "Enterprise Sports Financial Platform",
-      description:
-        "Enterprise sports financial system built with Angular (TypeScript) and Node.js, focused on REST APIs and production enhancements.",
+      description:        
+        "Enterprise financial platform built with Angular and Node.js, focused on REST APIs and backend validations.",
       image: project4,
       tech: [
         "Angular",
@@ -177,7 +177,7 @@ const ProjectCard = ({ project, delay, isInView }: any) => {
           <h3 className="text-xl font-extrabold mb-3 group-hover:text-primary transition-colors">
             {project.title}
           </h3>
-          <p className="text-muted-foreground mb-4 text-sm leading-relaxed line-clamp-2">
+          <p className="text-muted-foreground mb-4 text-sm leading-relaxed sm:line-clamp-2">
             {project.description}
           </p>
 

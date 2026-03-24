@@ -11,7 +11,7 @@ const About = () => {
   const stats = [
     { icon: Briefcase, label: "Years of Experience", value: 4, suffix: "+" },
     { icon: Code2, label: "Projects Delivered", value: 5, suffix: "+" },
-    { icon: Trophy, label: "Domains Worked", value: 5, suffix: "+" },
+    { icon: Trophy, label: "Domains Experience", value: 5, suffix: "+" },
   ];
 
   return (
@@ -35,10 +35,10 @@ const About = () => {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground text-center mb-12 leading-relaxed"
-          >
-            I’m a Full Stack Developer with 3.8+ years of experience building scalable web and enterprise applications across EdTech, B2B, E-commerce, and CMS domains.
-            I work primarily with React.js, Angular (TypeScript), Node.js, Express.js, and MongoDB to build secure REST APIs and responsive frontend systems within Agile environments.
-            I focus on writing clean, maintainable code and delivering performance-optimized, production-ready applications.
+          >            
+            I’m a Full Stack Developer with 4+ years of experience building scalable web and enterprise applications across EdTech, B2B, eCommerce, and CMS domains.
+            I primarily work with React, Node.js, Express.js, and MongoDB to build secure REST APIs and responsive frontend systems. I also have working experience with Angular (TypeScript).
+            I focus on writing clean, maintainable code and delivering performance-optimized, production-ready applications. Immediate joiner and open to new opportunities.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

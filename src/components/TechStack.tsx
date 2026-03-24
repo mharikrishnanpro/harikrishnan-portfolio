@@ -58,6 +58,9 @@ const TechStack = () => {
         { name: "REST APIs", icon: SiNodedotjs },
         { name: "JWT Authentication", icon: SiJsonwebtokens },
         { name: "Firebase Authentication", icon: SiFirebase },
+        { name: "API Validation", icon: SiNodedotjs },
+        { name: "Middleware Development", icon: SiNodedotjs },
+        { name: "Error Handling", icon: SiNodedotjs },
       ],
     },
     {

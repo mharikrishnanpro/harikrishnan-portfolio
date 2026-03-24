@@ -49,7 +49,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 0.8 }}
-            className="mb-6 md:mb-8 flex justify-center"
+            className="mb-4 md:mb-6 flex justify-center"
           >
             <div className="relative">
               <motion.div
@@ -79,7 +79,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3"
           >
             Hi, I'm{" "}
             <span className="gradient-text">Harikrishnan M</span>
@@ -89,13 +89,13 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-lg sm:text-xl md:text-2xl mb-6 h-16 md:h-20 flex items-center justify-center"
+            className="text-lg sm:text-xl md:text-2xl mb-3 h-16 md:h-20 flex items-center justify-center"
           >
             <TypeAnimation
               sequence={[
                 "Full Stack Developer",
                 2000,
-                "React & Angular Developer",
+                "React & Node.js Developer",
                 2000,
                 "Node.js & REST API Engineer",
                 2000,
@@ -113,9 +113,18 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 md:mb-10 max-w-2xl mx-auto px-4"
+            className="text-base sm:text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4"
           >
             Building scalable and production-ready web applications with 4+ years of professional experience.
+          </motion.p>
+
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7 }}
+            className="text-sm sm:text-base md:text-lg font-medium text-primary mb-8"
+          >
+            Immediate Joiner • Open to Full Stack / React / Node roles
           </motion.p>
 
           <motion.div
@@ -139,7 +148,7 @@ const Hero = () => {
               asChild
             >
               <a
-                href="/assets/Harikrishnan_M_Resume_Public.pdf"
+                href="/assets/Harikrishnan_M_FullStack_Developer_Resume.pdf"
                 download
                 onClick={handleResumeDownload}
               >
@@ -153,7 +162,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.2 }}
-            className="mt-10 md:mt-12"
+            className="mt-6 md:mt-8"
           >
             <button
               onClick={() => scrollToSection("about")}
